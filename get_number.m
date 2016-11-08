@@ -18,7 +18,7 @@ for j = 1:1:n
 
     s_t(j) = a/(a+b+c);
     s_r(j) = a/(a+b+c+e);
-    m_s(j) = (a+e)/n;
+    m_s(j) = (a+e)/(a+b+c+e);
     m_d(j) = a/(2*a+b+c);
     m_k(j) = a/(b+c);
 end
